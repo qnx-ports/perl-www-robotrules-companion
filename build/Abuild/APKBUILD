@@ -2,7 +2,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=perl-www-robotrules
 pkgver=6.02
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="WWW::RobotRules perl module"
 url="https://metacpan.org/release/WWW-RobotRules/"
 arch="noarch"
@@ -29,7 +29,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 781a2fc90e4efed901a91ecf4f2aaac2684409c6a75a8434ff140654838bb05d11f8fa760642e20eee96450d3ced6815a4dab11a4245bc8120c69ca68ab49e44  WWW-RobotRules-6.02.tar.gz
 "
